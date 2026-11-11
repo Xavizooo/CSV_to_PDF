@@ -5,4 +5,4 @@ archivos = open("datos.csv", "r")
 for dato in archivos:
     print(dato)
 
-    archivos.close()
+archivos.close()
